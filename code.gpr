@@ -1,0 +1,15 @@
+project Code is
+
+   package Compiler is
+      for Switches ("Ada") use ("-g");
+   end Compiler;
+
+   package Builder is
+      for Global_Configuration_Pragmas use "spark.adc";
+   end Builder;
+
+
+   for Main use ("code.adb");
+
+end Code;
+
