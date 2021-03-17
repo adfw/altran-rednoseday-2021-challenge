@@ -1,3 +1,10 @@
+-- Altran Red Nose Day 2021 Challenge
+-- A SPARK2014 solution by Anthony Williams
+-- 
+-- Reads puzzle input from stdin.
+-- e.g. $ ./code < puzzle.txt
+
+
 with Ada.Text_IO;
 
 procedure Code is
